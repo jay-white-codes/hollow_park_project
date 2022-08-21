@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="294.0">
+         <children>
+            <Label fx:id="label_welcome" layoutX="112.0" layoutY="198.0" text="Welcome!" />
+            <Label layoutX="56.0" layoutY="252.0" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="18.0" prefWidth="227.0" text="This page is currently under construction!" />
+            <Button fx:id="button_log_out" layoutX="166.0" layoutY="360.0" mnemonicParsing="false" text="Log Out" />
+            <Label layoutX="125.0" layoutY="216.0" text="Label" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="305.0" />
+   </children>
+</HBox>

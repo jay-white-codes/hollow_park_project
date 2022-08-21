@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="486.0" prefWidth="274.0">
+         <children>
+            <ImageView fitHeight="526.0" fitWidth="316.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Aurora-borealis-1.png" />
+               </image></ImageView>
+            <ImageView fitHeight="265.0" fitWidth="259.0" layoutX="29.0" layoutY="148.0" pickOnBounds="true">
+               <image>
+                  <Image url="@2.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="526.0" prefWidth="469.0">
+         <children>
+            <Label layoutX="118.0" layoutY="14.0" text="New User Account Registration">
+               <font>
+                  <Font name="HP Simplified" size="18.0" />
+               </font></Label>
+            <Label layoutX="24.0" layoutY="188.0" text="First Name">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="231.0" text="Middle Name">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="275.0" text="Last Name">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="19.0" layoutY="318.0" text="Phone">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="363.0" text="Email">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="403.0" text="Password">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="19.0" layoutY="451.0" text="Confirm Password">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="142.0" layoutY="398.0" prefHeight="26.0" prefWidth="242.0" promptText="password">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </PasswordField>
+            <PasswordField layoutX="142.0" layoutY="438.0" prefHeight="26.0" prefWidth="241.0" promptText="password">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </PasswordField>
+            <TextField layoutX="142.0" layoutY="358.0" prefHeight="26.0" prefWidth="242.0" promptText="emailaddress@email.com">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="142.0" layoutY="313.0" prefHeight="26.0" prefWidth="242.0" promptText="555-555-5555">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="142.0" layoutY="270.0" prefHeight="26.0" prefWidth="242.0" />
+            <TextField layoutX="142.0" layoutY="226.0" prefHeight="26.0" prefWidth="242.0" />
+            <TextField layoutX="142.0" layoutY="183.0" prefHeight="26.0" prefWidth="242.0" />
+            <ImageView fitHeight="132.0" fitWidth="124.0" layoutX="171.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@add-user.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</HBox>
