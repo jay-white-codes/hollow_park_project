@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.hollowParkOnline.Sample2">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../java/main/hollowParkOnline/aurora-borealis-1.png" />
+         </image></ImageView>
+      <AnchorPane layoutX="72.0" layoutY="75.0" prefHeight="400.0" prefWidth="355.0" style="-fx-background-color: #844A8D;">
+         <children>
+            <Button fx:id="button_log_in" layoutX="103.0" layoutY="297.0" mnemonicParsing="false" opacity="0.89" prefHeight="26.0" prefWidth="140.0" style="-fx-background-color: #AB74A8;" text="Log In" textFill="WHITE">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="75.0" layoutY="125.0" opacity="0.92" prefHeight="22.0" prefWidth="194.0" text="Already have an account?" textFill="WHITE">
+               <font>
+                  <Font name="HP Simplified" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="48.0" layoutY="200.0" prefHeight="30.0" prefWidth="248.0" promptText="username or email">
+               <font>
+                  <Font name="HP Simplified" size="16.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="pf_password" layoutX="48.0" layoutY="249.0" prefHeight="30.0" prefWidth="248.0" promptText="password" style="-fx-border-style: underline;">
+               <font>
+                  <Font name="HP Simplified" size="16.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="button_forgot_password" layoutX="115.0" layoutY="340.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Forgot password?" textFill="#1021e0cb" underline="true">
+               <font>
+                  <Font name="HP Simplified" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="149.0" fitWidth="166.0" layoutX="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Jay%20White/IdeaProjects/hollowpark-overstock/src/main/java/main/hollowParkOnline/hpo-icon-lite.png" />
+               </image></ImageView>
+            <Label layoutX="115.0" layoutY="154.0" opacity="0.92" prefHeight="22.0" prefWidth="114.0" text="Welcome back!" textFill="WHITE">
+               <font>
+                  <Font name="HP Simplified" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

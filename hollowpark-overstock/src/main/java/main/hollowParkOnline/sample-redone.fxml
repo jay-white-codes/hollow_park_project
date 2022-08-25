@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="540.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.hollowParkOnline.Controller">
+   <children>
+      <ImageView fitHeight="549.0" fitWidth="844.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@aurora-borealis-1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="409.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #844A8D;" />
+   </children>
+</AnchorPane>
